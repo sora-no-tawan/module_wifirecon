@@ -1,4 +1,6 @@
 <? 
+// fixed error "cannot modify header information - headers already sent by" (empty page)  
+session_start();
 /*
     Copyright (C) 2013-2016 xtr4nge [_AT_] gmail.com
 
